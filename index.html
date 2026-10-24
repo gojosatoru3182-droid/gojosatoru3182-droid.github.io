@@ -1,43 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Satoru | Engineering Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body{font-family:system-ui,sans-serif;background:#0f1115;color:#c9d1d9;padding:40px 20px;margin:0; display:flex; flex-direction:column; align-items:center}
-h1{color:#e6edf3;font-weight:600;letter-spacing:-0.5px;margin-bottom:5px} 
-p.sub{color:#8b949e;margin-top:0}
-.card{background:#161a21;border:1px solid #21262d;padding:24px;border-radius:12px;margin:16px 0;max-width:600px;width:100%;text-align:left}
-.card h3{margin:0 0 10px 0;color:#e6edf3;font-size:16px;letter-spacing:0.5px;text-transform:uppercase;color:#7aa5ff}
-a{color:#7aa5ff} .tag{display:inline-block;background:#1f242f;border:1px solid #2a3040;padding:4px 10px;border-radius:20px;font-size:12px;margin:3px;color:#8b9cc3}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>satoru. — portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono&family=Instrument+Serif&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0a;
+      color: #D4AF37;
+      font-family: 'Geist Mono', monospace;
+      display: flex;
+      justify-content: center;
+      padding: 16px;
+    }
+    .wrap {
+      width: 100%;
+      max-width: 420px;
+      background: #0e0e0e;
+      border-radius: 20px;
+      padding: 32px 26px;
+      border: 1px solid #1f1f1f;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      opacity: 0.8;
+      margin-bottom: 80px;
+    }
+    h1 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 60px;
+      line-height: 0.85;
+      color: #E6C86A;
+      margin-bottom: 16px;
+    }
+    .sub {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #B89F5A;
+      margin-bottom: 60px;
+    }
+    .label {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      color: #8C7A4A;
+      margin: 28px 0 12px;
+    }
+    .goal {
+      font-family: 'Instrument Serif', serif;
+      font-size: 24px;
+      line-height: 1.25;
+      color: #E6C86A;
+    }
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .tag {
+      border: 1px solid #4A3F28;
+      border-radius: 20px;
+      padding: 7px 13px;
+      font-size: 11px;
+      background: #111;
+    }
+    .note {
+      font-size: 11px;
+      line-height: 1.6;
+      color: #8C7A4A;
+      margin-top: 24px;
+    }
+    .foot {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 10px;
+      color: #5A4E32;
+    }
+  </style>
 </head>
 <body>
-<h1>satoru.</h1>
-<p class="sub">future engineer • csc 2026 • builder</p>
+  <div class="wrap">
+    <div class="top">
+      <span>satoru. / 2026</span>
+      <span>csc • portfolio</span>
+    </div>
 
-<div class="card">
-<h3>goal</h3>
-<p style="margin:0;color:#c9d1d9">Pursuing B.E. in Computer Engineering in China.Passionate about coding, AI & building useful tech </p>
-</div>
+    <h1>future<br>engineer.</h1>
+    <div class="sub">
+      engineering intelligent systems with clarity & precision.
+    </div>
 
-<div class="card">
-<h3>stack & interests</h3>
-<div>
-<span class="tag">python</span>
-<span class="tag">c++</span>
-<span class="tag">HTML</span>
-<span class="tag">web dev</span>
-<span class="tag">problem solving</span>
-<span class="tag">ai / ml</span>
-<span class="tag">learning SQL, sorting, queues, stacks</span>
-</div>
-</div>
+    <div class="label">GOAL</div>
+    <div class="goal">
+      CSC 2026 intake.<br>
+      Focused on AI / ML systems.<br>
+      Building intelligent systems that learn.
+    </div>
 
-<div class="card">
-<h3>note</h3>
-<p style="margin:0;color:#8b949e;font-size:14px">This is my portfolio for CSC application review. Minimal, fast, no tracking. Hosted on GitHub Pages.</p>
-<p style="font-size:13px">github.com/gojosatoru3182-droid</p>
-</div>
+    <div class="label">STACK</div>
+    <div class="stack">
+      <span class="tag">python</span>
+      <span class="tag">sql</span>
+      <span class="tag">pytorch</span>
+      <span class="tag">pandas</span>
+      <span class="tag">queues & stacks</span>
+      <span class="tag">exception handling</span>
+      <span class="tag">sorting</span>
+    </div>
+
+    <div class="label">NOTE</div>
+    <div class="note">
+      Open to collaborations & research. Portfolio for CSC review. No tracking.
+    </div>
+
+    <div class="foot">© 2026 satoru • portfolio</div>
+  </div>
 </body>
-  </html>
+</html>
